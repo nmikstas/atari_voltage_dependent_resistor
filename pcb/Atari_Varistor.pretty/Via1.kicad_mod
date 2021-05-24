@@ -1,0 +1,9 @@
+(module Via1 (layer F.Cu) (tedit 5D040DC4)
+  (fp_text reference REF** (at 0.065 0.845) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (fp_text value Via1 (at 0 -0.845) (layer F.Fab) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.4224 1.4224) (drill 0.3556) (layers *.Cu *.Mask))
+)

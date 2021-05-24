@@ -1,0 +1,488 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Atari_Varistor-rescue:DiodeArray U1
+U 1 1 5D03F404
+P 2675 4375
+F 0 "U1" V 2100 4625 60  0000 C CNN
+F 1 "DIODE ARRAY GP 75V 215MA SOT363" V 2100 4250 60  0001 C CNN
+F 2 "Atari_Varistor:DiodeArray" H 2500 4150 60  0001 C CNN
+F 3 "" H 2500 4150 60  0001 C CNN
+F 4 "BAV99DW-FDICT-ND" V 2675 4375 60  0001 C CNN "Digikey Part Number"
+	1    2675 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:DiodeArray U2
+U 1 1 5D03F4E0
+P 4125 4375
+F 0 "U2" V 3550 4625 60  0000 C CNN
+F 1 "DIODE ARRAY GP 75V 215MA SOT363" V 3550 4250 60  0001 C CNN
+F 2 "Atari_Varistor:DiodeArray" H 3950 4150 60  0001 C CNN
+F 3 "" H 3950 4150 60  0001 C CNN
+F 4 "BAV99DW-FDICT-ND" V 4125 4375 60  0001 C CNN "Digikey Part Number"
+	1    4125 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:DiodeArray U3
+U 1 1 5D03F623
+P 5575 4375
+F 0 "U3" V 5000 4625 60  0000 C CNN
+F 1 "DIODE ARRAY GP 75V 215MA SOT363" V 5000 4250 60  0001 C CNN
+F 2 "Atari_Varistor:DiodeArray" H 5400 4150 60  0001 C CNN
+F 3 "" H 5400 4150 60  0001 C CNN
+F 4 "BAV99DW-FDICT-ND" V 5575 4375 60  0001 C CNN "Digikey Part Number"
+	1    5575 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:DiodeArray U4
+U 1 1 5D03F629
+P 7025 4375
+F 0 "U4" V 6450 4625 60  0000 C CNN
+F 1 "DIODE ARRAY GP 75V 215MA SOT363" V 6450 4250 60  0001 C CNN
+F 2 "Atari_Varistor:DiodeArray" H 6850 4150 60  0001 C CNN
+F 3 "" H 6850 4150 60  0001 C CNN
+F 4 "BAV99DW-FDICT-ND" V 7025 4375 60  0001 C CNN "Digikey Part Number"
+	1    7025 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:DiodeArray U5
+U 1 1 5D03F989
+P 8475 4375
+F 0 "U5" V 7900 4625 60  0000 C CNN
+F 1 "DIODE ARRAY GP 75V 215MA SOT363" V 7900 4250 60  0001 C CNN
+F 2 "Atari_Varistor:DiodeArray" H 8300 4150 60  0001 C CNN
+F 3 "" H 8300 4150 60  0001 C CNN
+F 4 "BAV99DW-FDICT-ND" V 8475 4375 60  0001 C CNN "Digikey Part Number"
+	1    8475 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:DiodeArray U6
+U 1 1 5D03F98F
+P 9925 4375
+F 0 "U6" V 9350 4625 60  0000 C CNN
+F 1 "DIODE ARRAY GP 75V 215MA SOT363" V 9350 4250 60  0001 C CNN
+F 2 "Atari_Varistor:DiodeArray" H 9750 4150 60  0001 C CNN
+F 3 "" H 9750 4150 60  0001 C CNN
+F 4 "BAV99DW-FDICT-ND" V 9925 4375 60  0001 C CNN "Digikey Part Number"
+	1    9925 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:R R2
+U 1 1 5D03FA17
+P 3400 3600
+F 0 "R2" V 3480 3600 50  0000 C CNN
+F 1 "OPEN" V 3400 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3330 3600 50  0001 C CNN
+F 3 "" H 3400 3600 50  0001 C CNN
+F 4 "N/A" V 3400 3600 60  0001 C CNN "Digikey Part Number"
+	1    3400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:R R11
+U 1 1 5D03FAA2
+P 9925 3600
+F 0 "R11" V 10005 3600 50  0000 C CNN
+F 1 "5.6k" V 9925 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 9855 3600 50  0001 C CNN
+F 3 "" H 9925 3600 50  0001 C CNN
+F 4 "311-5.6KLRCT-ND" V 9925 3600 60  0001 C CNN "Digikey Part Number"
+	1    9925 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:R R1
+U 1 1 5D03FAC7
+P 2675 3600
+F 0 "R1" V 2755 3600 50  0000 C CNN
+F 1 "OPEN" V 2675 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2605 3600 50  0001 C CNN
+F 3 "" H 2675 3600 50  0001 C CNN
+F 4 "N/A" V 2675 3600 60  0001 C CNN "Digikey Part Number"
+	1    2675 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:R R3
+U 1 1 5D03FAEE
+P 4125 3600
+F 0 "R3" V 4205 3600 50  0000 C CNN
+F 1 "OPEN" V 4125 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4055 3600 50  0001 C CNN
+F 3 "" H 4125 3600 50  0001 C CNN
+F 4 "N/A" V 4125 3600 60  0001 C CNN "Digikey Part Number"
+	1    4125 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:R R12
+U 1 1 5D03FB17
+P 10650 3600
+F 0 "R12" V 10730 3600 50  0000 C CNN
+F 1 "2k" V 10650 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 10580 3600 50  0001 C CNN
+F 3 "" H 10650 3600 50  0001 C CNN
+F 4 "311-2KLRCT-ND" V 10650 3600 60  0001 C CNN "Digikey Part Number"
+	1    10650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:R R4
+U 1 1 5D03FB52
+P 4850 3600
+F 0 "R4" V 4930 3600 50  0000 C CNN
+F 1 "OPEN" V 4850 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4780 3600 50  0001 C CNN
+F 3 "" H 4850 3600 50  0001 C CNN
+F 4 "N/A" V 4850 3600 60  0001 C CNN "Digikey Part Number"
+	1    4850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:R R5
+U 1 1 5D03FB7F
+P 5575 3600
+F 0 "R5" V 5655 3600 50  0000 C CNN
+F 1 "OPEN" V 5575 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5505 3600 50  0001 C CNN
+F 3 "" H 5575 3600 50  0001 C CNN
+F 4 "N/A" V 5575 3600 60  0001 C CNN "Digikey Part Number"
+	1    5575 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:R R6
+U 1 1 5D03FBAE
+P 6300 3600
+F 0 "R6" V 6380 3600 50  0000 C CNN
+F 1 "10K" V 6300 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 6230 3600 50  0001 C CNN
+F 3 "" H 6300 3600 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" V 6300 3600 60  0001 C CNN "Digikey Part Number"
+	1    6300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:R R9
+U 1 1 5D03FBDF
+P 8475 3600
+F 0 "R9" V 8555 3600 50  0000 C CNN
+F 1 "5.6k" V 8475 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 8405 3600 50  0001 C CNN
+F 3 "" H 8475 3600 50  0001 C CNN
+F 4 "311-5.6KLRCT-ND" V 8475 3600 60  0001 C CNN "Digikey Part Number"
+	1    8475 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:R R7
+U 1 1 5D03FC12
+P 7025 3600
+F 0 "R7" V 7105 3600 50  0000 C CNN
+F 1 "10K" V 7025 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 6955 3600 50  0001 C CNN
+F 3 "" H 7025 3600 50  0001 C CNN
+F 4 "311-10.0KLRCT-ND" V 7025 3600 60  0001 C CNN "Digikey Part Number"
+	1    7025 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:R R8
+U 1 1 5D03FC47
+P 7750 3600
+F 0 "R8" V 7830 3600 50  0000 C CNN
+F 1 "5.6k" V 7750 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 7680 3600 50  0001 C CNN
+F 3 "" H 7750 3600 50  0001 C CNN
+F 4 "311-5.6KLRCT-ND" V 7750 3600 60  0001 C CNN "Digikey Part Number"
+	1    7750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atari_Varistor-rescue:R R10
+U 1 1 5D03FC7E
+P 9200 3600
+F 0 "R10" V 9280 3600 50  0000 C CNN
+F 1 "5.6k" V 9200 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 9130 3600 50  0001 C CNN
+F 3 "" H 9200 3600 50  0001 C CNN
+F 4 "311-5.6KLRCT-ND" V 9200 3600 60  0001 C CNN "Digikey Part Number"
+	1    9200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3775 3875 3775 3825
+Wire Wire Line
+	3775 3825 4125 3825
+Wire Wire Line
+	4125 3750 4125 3825
+Wire Wire Line
+	4475 3825 4475 3875
+Connection ~ 4125 3825
+Wire Wire Line
+	2325 3875 2325 3825
+Wire Wire Line
+	2325 3825 2675 3825
+Wire Wire Line
+	2675 3750 2675 3825
+Wire Wire Line
+	3025 3825 3025 3875
+Connection ~ 2675 3825
+Wire Wire Line
+	4125 4950 4125 4900
+Wire Wire Line
+	3025 4950 3400 4950
+Wire Wire Line
+	3775 4950 3775 4900
+Wire Wire Line
+	3025 4900 3025 4950
+Connection ~ 3775 4950
+Wire Wire Line
+	3400 3750 3400 4950
+Connection ~ 3400 4950
+$Comp
+L Atari_Varistor-rescue:Pin J2
+U 1 1 5D04021A
+P 1750 4950
+F 0 "J2" H 1750 4850 60  0000 C CNN
+F 1 "CONN PC PIN CIRC 0.020DIA GOLD" H 1750 5050 60  0001 C CNN
+F 2 "Atari_Varistor:Pin" H 1750 4950 60  0001 C CNN
+F 3 "" H 1750 4950 60  0001 C CNN
+F 4 "ED90539-ND" H 1750 4950 60  0001 C CNN "Digikey Part Number"
+	1    1750 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Atari_Varistor-rescue:Pin J1
+U 1 1 5D0402AD
+P 1750 3400
+F 0 "J1" H 1750 3300 60  0000 C CNN
+F 1 "CONN PC PIN CIRC 0.020DIA GOLD" H 1750 3500 60  0001 C CNN
+F 2 "Atari_Varistor:Pin" H 1750 3400 60  0001 C CNN
+F 3 "" H 1750 3400 60  0001 C CNN
+F 4 "ED90539-ND" H 1750 3400 60  0001 C CNN "Digikey Part Number"
+	1    1750 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 3400 2675 3400
+Wire Wire Line
+	2675 3400 2675 3450
+Connection ~ 2675 3400
+Wire Wire Line
+	4125 3450 4125 3400
+Connection ~ 4125 3400
+Wire Wire Line
+	3400 3450 3400 3400
+Connection ~ 3400 3400
+Wire Wire Line
+	4850 3400 4850 3450
+Wire Wire Line
+	5575 3400 5575 3450
+Connection ~ 4850 3400
+Wire Wire Line
+	6300 3400 6300 3450
+Connection ~ 5575 3400
+Wire Wire Line
+	7025 3400 7025 3450
+Connection ~ 6300 3400
+Wire Wire Line
+	7750 3400 7750 3450
+Connection ~ 7025 3400
+Wire Wire Line
+	8475 3400 8475 3450
+Connection ~ 7750 3400
+Wire Wire Line
+	9200 3400 9200 3450
+Connection ~ 8475 3400
+Wire Wire Line
+	9925 3400 9925 3450
+Connection ~ 9200 3400
+Wire Wire Line
+	10650 3400 10650 3450
+Connection ~ 9925 3400
+Wire Wire Line
+	5225 3875 5225 3825
+Wire Wire Line
+	5225 3825 5575 3825
+Wire Wire Line
+	5925 3825 5925 3875
+Wire Wire Line
+	5575 3750 5575 3825
+Connection ~ 5575 3825
+Wire Wire Line
+	6675 3875 6675 3825
+Wire Wire Line
+	6675 3825 7025 3825
+Wire Wire Line
+	7375 3825 7375 3875
+Wire Wire Line
+	7025 3750 7025 3825
+Connection ~ 7025 3825
+Wire Wire Line
+	4475 4900 4475 4950
+Wire Wire Line
+	4475 4950 4850 4950
+Wire Wire Line
+	5225 4950 5225 4900
+Wire Wire Line
+	5575 4950 5575 4900
+Connection ~ 5225 4950
+Wire Wire Line
+	4850 3750 4850 4950
+Connection ~ 4850 4950
+Wire Wire Line
+	1950 4950 2325 4950
+Wire Wire Line
+	2675 4950 2675 4900
+Wire Wire Line
+	2325 4900 2325 4950
+Connection ~ 2325 4950
+Wire Wire Line
+	5925 4900 5925 4975
+Wire Wire Line
+	5925 4975 6300 4975
+Wire Wire Line
+	7025 4975 7025 4900
+Wire Wire Line
+	6675 4900 6675 4975
+Connection ~ 6675 4975
+Wire Wire Line
+	7375 4900 7375 4975
+Wire Wire Line
+	7375 4975 7750 4975
+Wire Wire Line
+	8475 4975 8475 4900
+Wire Wire Line
+	8125 4900 8125 4975
+Connection ~ 8125 4975
+Wire Wire Line
+	8825 4900 8825 4975
+Wire Wire Line
+	8825 4975 9200 4975
+Wire Wire Line
+	9925 4975 9925 4900
+Wire Wire Line
+	9575 4900 9575 4975
+Connection ~ 9575 4975
+Wire Wire Line
+	10275 4900 10275 4975
+Wire Wire Line
+	10275 4975 10650 4975
+Wire Wire Line
+	10650 4975 10650 3750
+Wire Wire Line
+	6300 3750 6300 4975
+Connection ~ 6300 4975
+Wire Wire Line
+	7750 3750 7750 4975
+Connection ~ 7750 4975
+Wire Wire Line
+	9200 3750 9200 4975
+Connection ~ 9200 4975
+Wire Wire Line
+	8125 3875 8125 3825
+Wire Wire Line
+	8125 3825 8475 3825
+Wire Wire Line
+	8825 3825 8825 3875
+Wire Wire Line
+	8475 3750 8475 3825
+Connection ~ 8475 3825
+Wire Wire Line
+	9575 3875 9575 3825
+Wire Wire Line
+	9575 3825 9925 3825
+Wire Wire Line
+	10275 3825 10275 3875
+Wire Wire Line
+	9925 3750 9925 3825
+Connection ~ 9925 3825
+Wire Wire Line
+	4125 3825 4475 3825
+Wire Wire Line
+	4125 3825 4125 3875
+Wire Wire Line
+	2675 3825 3025 3825
+Wire Wire Line
+	2675 3825 2675 3875
+Wire Wire Line
+	3775 4950 4125 4950
+Wire Wire Line
+	3400 4950 3775 4950
+Wire Wire Line
+	2675 3400 3400 3400
+Wire Wire Line
+	4125 3400 4850 3400
+Wire Wire Line
+	3400 3400 4125 3400
+Wire Wire Line
+	4850 3400 5575 3400
+Wire Wire Line
+	5575 3400 6300 3400
+Wire Wire Line
+	6300 3400 7025 3400
+Wire Wire Line
+	7025 3400 7750 3400
+Wire Wire Line
+	7750 3400 8475 3400
+Wire Wire Line
+	8475 3400 9200 3400
+Wire Wire Line
+	9200 3400 9925 3400
+Wire Wire Line
+	9925 3400 10650 3400
+Wire Wire Line
+	5575 3825 5925 3825
+Wire Wire Line
+	5575 3825 5575 3875
+Wire Wire Line
+	7025 3825 7375 3825
+Wire Wire Line
+	7025 3825 7025 3875
+Wire Wire Line
+	5225 4950 5575 4950
+Wire Wire Line
+	4850 4950 5225 4950
+Wire Wire Line
+	2325 4950 2675 4950
+Wire Wire Line
+	6675 4975 7025 4975
+Wire Wire Line
+	8125 4975 8475 4975
+Wire Wire Line
+	9575 4975 9925 4975
+Wire Wire Line
+	6300 4975 6675 4975
+Wire Wire Line
+	7750 4975 8125 4975
+Wire Wire Line
+	9200 4975 9575 4975
+Wire Wire Line
+	8475 3825 8825 3825
+Wire Wire Line
+	8475 3825 8475 3875
+Wire Wire Line
+	9925 3825 10275 3825
+Wire Wire Line
+	9925 3825 9925 3875
+$EndSCHEMATC

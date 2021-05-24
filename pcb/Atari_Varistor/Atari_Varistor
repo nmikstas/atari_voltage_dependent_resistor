@@ -1,0 +1,7 @@
+Reference, Quantity, Value, Footprint, Datasheet, Part Number
+J1 J2 ,2,"Pin","Atari_Varistor:Pin",""
+R10 R11 R8 R9 ,4,"5.6k","Resistors_SMD:R_0402",""
+R12 ,1,"2k","Resistors_SMD:R_0402",""
+R1 R2 R3 R4 R5 ,5,"OPEN","Resistors_SMD:R_0402",""
+R6 R7 ,2,"10k","Resistors_SMD:R_0402",""
+U1 U2 U3 U4 U5 U6 ,6,"DiodeArray","Atari_Varistor:DiodeArray","","Digikey #"
